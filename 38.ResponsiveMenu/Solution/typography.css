@@ -1,0 +1,177 @@
+html {
+    font-family: "Helvetica", sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+@media screen and (min-width:500px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width:800px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width:1300px) {
+    html {
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width:1800px) {
+    html {
+        font-size: 21px;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Georgia", serif;
+    font-size: 1em;
+    line-height: 1.2;
+    margin: 1em 0 0.5em 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1.6rem;
+}
+
+h5 {
+    font-size: 1.4rem;
+}
+
+h6 {
+    font-size: 1.2rem;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 1.5rem;
+}
+
+ul li {
+    padding: 0 0 0 1rem;
+    list-style-type: disc;
+}
+
+ul ul li {
+    padding: 0 0 0 1rem;
+    list-style-type: square;
+}
+
+ul ul ul li {
+    padding: 0 0 0 1rem;
+    list-style-type: circle;
+}
+
+blockquote {
+    font-family: "Georgia", serif;
+    font-style: italic;
+    padding: 0 1rem 0 2rem;
+    position: relative;
+    width: 40%;
+    min-width: 15rem;
+    border-left: 3px solid grey;
+}
+
+blockquote .author {
+    text-align: right;
+}
+
+img[class^="align"] {
+    background: rgb(255, 255, 255);
+    border: 2px solid black;
+    padding: 4px;
+    max-width: 100%;
+    height: auto;
+}
+
+.align-right {
+    margin: 0 0 1rem 1rem;
+    float: right;
+}
+
+.align-left {
+    margin: 0 1rem 0.2rem 0;
+    float: left;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+    margin-bottom: 1.5rem;
+    border: 2px solid grey;
+    border-spacing: 10px;
+}
+
+table td,
+table th {
+    border: 2px solid grey;
+    text-align: left;
+}
+
+table thead {
+    color: white;
+    background: grey;
+}
+
+table tr:nth-child(odd) td {
+    background: #F1F1F1;
+}
+
+table tr:hover td {
+    background: black;
+    color: white;
+    border-color: black;
+    border-color: transparent;
+}
+
+a.starButton {
+    display: inline-block;
+    background: green;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 0.8em;
+    border-radius: 0.2rem;
+    transition: background 0.8s ease;
+}
+
+a.starButton:hover {
+    background: red;
+}
+
+a.starButton:hover i {
+    transition: transform 0.8s ease;
+    color: rgb(255, 255, 0);
+    transform: rotate(270deg);
+}
+
+a.starButton:active {
+    position: relative;
+    top: -4px;
+}
+
+hr {
+    margin: 2rem 0;
+}
